@@ -1,13 +1,17 @@
 # surf-zones
+
 Collection of zones and configs for [Shavit-Surf-Timer](https://github.com/bhopppp/Shavit-Surf-Timer).
 Attempts to mimic KSF's zoning and stripper files as best as possible.
 
 ## Usage
+
 (do the following once)
+
 - In `cfg/sourcemod/plugin.shavit-zones.cfg` set `shavit_zones_usesql` to `0`
 - In `cfg/sourcemod/plugin.shavit-zones-json.cfg` set `shavit_zones_json_url` to `https://wrldspawn.github.io/surf-zones/z/{map}.json`
 
 (do the following regularly)
+
 - Copy `addons/stripper`
 - Copy `addons/sourcemod/configs/shavit-mapfixes.cfg`
 
@@ -17,16 +21,19 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 > gets updated to supports importing and exporting max velocity
 
 ## Extras
+
 `cfg` folder exists as a lazy copy-paste for the first steps.
 
 `addons/sourcemod/config/shavit-styles.cfg`
+
 - Removes styles that aren't relevant to surf
 - Sets `force_hsw` to `2` (surf variant) in half sideways
 - Disables autobhop (mimics KSF but also needed for zoning)
 - Requires [shavit-style-backwards](https://github.com/PMArkive/random-shavit-bhoptimer-stuff/blob/main/shavit-style-backwards.sp) for backwards style
 
 ## Map List + Notes
-(last updated 2025/11/04)
+
+(last updated 2025/12/16)
 
 <details>
 <summary>Tier 1 (73/74)</summary>
@@ -301,7 +308,7 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 </details>
 
 <details>
-<summary>Tier 3 (0/258)</summary>
+<summary>Tier 3 (0/260)</summary>
 
 - [ ] surf_1day - 11 stages, 1 bonus
 - [ ] surf_2012_beta12 - 6 stages, 1 bonus
@@ -334,6 +341,7 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 - [ ] surf_calamity_njv - 5 stages
 - [ ] surf_canisius - 5 stages
 - [ ] surf_canisius2_fix - 5 stages
+- [ ] surf_carbon - 3 checkpoints, 4 bonuses - maxvel: 5000
 - [ ] surf_cartoon - 5 stages, 1 bonus
 - [ ] surf_cavemissile_fix - 3 checkpoints, 4 bonuses - maxvel: 5000
 - [ ] surf_christmas - 9 stages, 2 bonuses
@@ -443,6 +451,7 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 - [ ] surf_minigolf_ksf - 7 stages, 2 bonuses
 - [ ] surf_minimumwage - 6 stages, 1 bonus
 - [ ] surf_missing_no - 4 checkpoints
+- [ ] surf_monolith - 10 stages, 10 bonuses
 - [ ] surf_morbid - 6 stages
 - [ ] surf_mushroom_ksf - 4 checkpoints, 1 bonus
 - [ ] surf_mynah_final - 4 stages
@@ -570,7 +579,7 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 </details>
 
 <details>
-<summary>Tier 4 (0/215)</summary>
+<summary>Tier 4 (0/216)</summary>
 
 - [ ] surf_25_lighters - 4 checkpoints, 3 bonuses
 - [ ] surf_4dimensional - 3 stages, 1 bonus
@@ -750,7 +759,7 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 - [ ] surf_sewers - 4 checkpoints
 - [ ] surf_sexplizooimed - 7 stages, 1 bonus
 - [ ] surf_sexyartz_njv - 6 checkpoints
-  - >"no jail version" >look inside >jail triggers not removed
+  - > "no jail version" >look inside >jail triggers not removed
 - [ ] surf_sh - 4 stages
 - [ ] surf_shady_h - 3 checkpoints
 - [ ] surf_shambles - 3 checkpoints, 3 bonuses
@@ -786,6 +795,7 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 - [ ] surf_vector_final - 4 stages, 1 bonus
 - [ ] surf_vestige_fix - 3 checkpoints, 5 bonuses - maxvel: 5000
 - [ ] surf_vienna - 2 checkpoints, 5 bonuses
+- [ ] surf_vitamin_e - 5 stages, 9 bonuses
 - [ ] surf_volcanic - 3 checkpoints, 1 bonus
 - [ ] surf_warped - 3 checkpoints, 3 bonuses
 - [ ] surf_wazor_ksf - 5 stages
@@ -908,7 +918,7 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 </details>
 
 <details>
-<summary>Tier 6 (0/54)</summary>
+<summary>Tier 6 (0/55)</summary>
 
 - [ ] surf_666 - 6 stages, 6 bonuses - maxvel: 4000
 - [ ] surf_amaro - 4 checkpoints, 1 bonus
@@ -934,6 +944,7 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 - [ ] surf_gloomy - 6 stages, 4 bonuses
 - [ ] surf_hades - 7 stages, 2 bonuses
 - [ ] surf_innokia - 5 stages, 4 bonuses
+- [ ] surf_jitterbug - 7 stages, 3 bonuses
 - [ ] surf_jumble - 2 stages, 4 bonuses
 - [ ] surf_jusched_beta1 - 4 checkpoints
 - [ ] surf_kartune - 5 stages, 6 bonuses
@@ -967,7 +978,7 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 </details>
 
 <details>
-<summary>Tier 7 (0/31)</summary>
+<summary>Tier 7 (0/32)</summary>
 
 - [ ] surf_antagonist - 4 stages, 2 bonuses
   - Align bonus 2 start zone with platform
@@ -993,6 +1004,7 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 - [ ] surf_shibboleth - 5 stages, 10 bonuses
 - [ ] surf_shodan - 4 checkpoints, 10 bonuses
 - [ ] surf_sidistic - 7 checkpoints
+- [ ] surf_silent - 3 checkpoints, 1 bonus - maxvel: 5000
 - [ ] surf_spectra - 6 checkpoints, 2 bonuses - maxvel: 5000
 - [ ] surf_starvald - 3 checkpoints, 4 bonuses
 - [ ] surf_techslop - 4 stages, 4 bonuses
@@ -1006,8 +1018,9 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 </details>
 
 <details>
-<summary>Tier 8 (0/7)</summary>
+<summary>Tier 8 (0/8)</summary>
 
+- [ ] surf_antagonist2 - 4 stages, 7 bonuses
 - [ ] surf_anubis_ksf - 3 stages, 9 bonuses
 - [ ] surf_corruption - 7 checkpoints, 6 bonuses - maxvel: 10000
 - [ ] surf_deity_ksf - 5 stages
@@ -1019,6 +1032,7 @@ Attempts to mimic KSF's zoning and stripper files as best as possible.
 </details>
 
 ## Timer Todo
+
 These are just nice to haves, there is no guarantee I myself will implement them personally.
 
 - zones: start zone teleport position
@@ -1027,6 +1041,7 @@ These are just nice to haves, there is no guarantee I myself will implement them
 - zones: custom zone names for bonus/stage credits or maps like classics(2), progress linear route, unraveled
 
 ## Contributing
+
 Just make zones and run `sm_dumpzones` when you're done and PR the JSON files (located at
 `addons/sourcemod/data/zones-strike`)
 
@@ -1037,8 +1052,9 @@ Some maps have triggers that do not like to trigger properly when hooked and may
 with Stripper (otherwise hook as box form if its not at a weird angle). Please test your zones before submitting.
 
 ### Autobhop zones
+
 Other servers that aren't KSF tend to keep autobunnyhopping on. Zoning autobhop zones is encouraged but not required.
-If you *did not* add any please make that clear in your PR.
+If you _did not_ add any please make that clear in your PR.
 
 Please only make autobhop zones where it makes sense if triggers do not exist for it.
 
